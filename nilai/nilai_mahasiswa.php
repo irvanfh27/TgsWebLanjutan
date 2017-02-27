@@ -119,7 +119,7 @@
 </form>
 
 <?php
-require_once 'class_nilaimahasiswa.php'; //untuk menyertakan atau memasukan file/library untuk di gunakan
+require_once 'class_nilaimahasiswa.php'; 
 error_reporting(E_ALL & ~E_NOTICE);
 
 $mahasiswa = new NilaiMahasiswa($_POST['nim'], $_POST['matakuliah'], $_POST['nilai']);
